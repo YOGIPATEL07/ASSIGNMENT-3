@@ -1,0 +1,368 @@
+/* Set margin and padding to 0 for all elements */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Set background color and size for the body element and center its contents */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100;
+    background-color: black;
+    background-size: cover;
+}
+
+/* Style the poster container */
+.poster{
+    display: flex;
+    width: 466px;
+    height: 720px;
+    border: 2px solid #f4f4f4;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;   
+}
+
+/* Style the "UP" text in the top left corner of the poster */
+.up{
+    left: 75px;
+    position: relative;
+    color: purple;
+    font-weight: 900s;
+}
+
+/* Style the "SAVAGE" text in the top left corner of the poster */
+.left1{
+    left: 59px;
+    position: relative;
+    color: purple;
+}
+
+/* Style the "SUNDAYS" text in the top left corner of the poster */
+.up1{
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Style the "AT TIFFANY'S" text in the top left corner of the poster */
+.left2{
+    position: relative;
+    left: 17px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Ensure the image inside the poster container does not exceed its dimensions */
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Style the first text element in the poster container */
+.t1{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    margin-left: -288px;
+    font-weight: 900;
+}
+
+/* Style the second text element in the poster container */
+.t2{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: -263px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+/* Style the middle text element in the poster container */
+.middle{
+    font-size: 131px;
+    color: white;
+    position: relative;
+}
+
+/* Style the text element in the bottom right corner of the poster */
+.text{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 66px;
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-right: 9px;
+    padding-bottom: 101px;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Style the first small text element in the bottom left corner of the poster */
+.first{
+    position: absolute;
+    bottom: 200px;
+    font-size: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+/* Style the second small text element in the bottom left corner of the poster */
+.name{
+    position: absolute;
+    bottom: 256px;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    font-weight: 700;
+}
+
+/* Set the position of the remaining small text elements */
+.small1{
+    position: relative;
+    left:-23px;
+}
+.small2{
+    position: relative;
+    left: -22px;
+}
+.small3{
+    position: relative;
+    left: -45px;
+}
+.small4{
+    position: relative;
+    left:-42px ;
+}
+.small5{
+    position: relative;
+}
+.small6{
+    position: relative;
+    left: -10px;
+}
+.small7{
+    position: relative;
+    left: -18px;
+}
+.small8{
+    position: relative;
+    left: -15px;
+}
+.small9{
+    position: relative;
+    left: -31px;
+}
+.small10{
+    position: relative;
+    left: -29px;
+}
+
+.small11{
+    position: relative;
+    left: -17px;
+}
+/* 
+positioning the elements  */
+.one{
+    position: relative;
+    /* display: table-caption; */
+    left: 28px;
+    bottom: 4px;
+    font-size: 3px;
+}
+.two{
+    position: relative;
+    font-size: 3px;
+    
+}
+.three{
+    position: relative;
+    left: 0px;
+    bottom: 4px;
+    font-size: 3px;
+}
+.fourth{
+    position: relative;
+    left: -20px;
+    font-size: 3px;
+}
+.five{
+    position: relative;
+    left: -23px;
+    font-size: 3px;
+    
+} 
+.six{
+    position: relative;
+    left: -19px;
+    top:-4px;
+    font-size: 3px;
+}
+.seven{
+    position: relative;
+    left: -45px;
+    bottom: 0px;
+    font-size: 3px;
+}
+.eight{
+    position: relative;
+    left: -43px;
+    font-size: 3px;
+}
+.nine{
+    position: relative;
+    left: 8px;
+    bottom: 4px;
+    font-size: 3px;
+}
+.ten{
+    position: relative;
+    font-size: 3px;
+}
+.eleven{
+    position: relative;
+    left: 6px;
+    bottom: 4px;
+    font-size: 3px;
+}
+.twelve{
+    position: relative;
+    left: -12px;
+    font-size: 3px;
+}
+.thirteen{
+    position: relative;
+    left: -11px;
+    bottom: 3px;
+    font-size: 3px;
+
+}
+.fourteen{
+    position: relative;
+    left: -20px;
+    font-size: 3px;
+}
+.fifteen{
+    position: relative;
+    left: -15px;
+    bottom: 4px;
+    font-size: 3px;
+}
+.sixteen{
+    position: relative;
+    left: -30px;
+    font-size: 3px;
+}
+.seventeen{
+    position: relative;
+    left: -30px;
+    font-size: 3px;
+}
+.eighteen{
+    position: relative;
+    bottom: 4px;
+    font-size: 3px;
+    left: 7px;
+}
+.nineteen{
+    position: relative;
+    left: -10px;
+    font-size: 3px;
+    left: -1px;
+}
+.twenty{
+   position: relative;
+   bottom: 5px;
+   font-size: 3px;
+}
+.twenty1{
+    position: relative;
+    left: -8px;
+    font-size: 3px;
+ }
+ .twenty2{
+    position: relative;
+    bottom: -22px;
+    left: -182px;
+    font-size: 8px;
+    color: purple;
+    font-family:'Titillium Web';
+    font-weight: 400;
+ }
+.sixth{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 42%;
+}
+/* MAKING A FONT LARGE */
+.LARGE{
+    font-size: 19px;
+    color: white;
+    bottom: -7px;
+    position: relative;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* aligning second div */
+.second{
+    position: absolute;
+    bottom: 191px;
+    text-align: center;
+    font-size: 5px;
+    color: white;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/* aligning third div */
+.third{
+    position: absolute;
+    bottom: 179px;
+    text-align: center;
+    font-size: 6px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/* aligning fourth div */
+.four{
+    position: absolute;
+    bottom: 165px;
+    text-align: center;
+    font-size: 5px;  
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/* aligning fifth div */
+.fifth{
+    position: absolute;
+    bottom: 142px;
+    text-align: center;
+    font-size: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.name p, .small p, .LARGE p, .second p, .third p, .four p, .fifth p {
+    max-width: 100px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
